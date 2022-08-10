@@ -1,4 +1,5 @@
-Distributed constraint optimization Problem :postbox: 
+# :postbox: **Distributed constraint optimization Problem** :postbox: 
+
 This repo serves as an implementation of two DCOP algorithms in Python using random, numpy, matplotlib, and tqdm.
 
 ## Overview 
@@ -15,7 +16,7 @@ A DCOP is a problem in which a group of agents must distributedly choose values 
 ![MGM2](MGMPart2.png)
 
 ## Code Overview
-Cotains a few main functions:
+Contains a few main functions:
 
 **graph_operator(p1)** - this method will be called upon twice. one with branching factor of 0.2 and second with branching factor of 0.5 (a more complex graph)
 method is responsible of:
@@ -25,7 +26,6 @@ method is responsible of:
 	2. The probability of each agent changing the assignment is 0.4
 3. Runs the solver of mgm
 
-**graph_generator()**
-responsible of creating a double graphed image, one graph for each network(p1=0.2,p1=0.5),that compares performances of all algorithms
+**graph_generator()** - responsible of creating a double graphed image, one graph for each network(p1=0.2,p1=0.5),that compares performances of all algorithms
 
 Assignment instructions can be found in Assignment 2.doc

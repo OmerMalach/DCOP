@@ -29,3 +29,7 @@ method is responsible of:
 **graph_generator()** - responsible of creating a double graphed image, one graph for each network(p1=0.2,p1=0.5),that compares performances of all algorithms
 
 Assignment instructions can be found in Assignment 2.doc
+
+# Credit
+
+[Asymmetric Distributed Constraint Optimization Problems](https://jair.org/index.php/jair/article/view/10828)
